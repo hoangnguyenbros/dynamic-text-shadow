@@ -2,13 +2,6 @@
 
 A small web project that displays an animated "FUN" splash screen and adds a dynamic mouse-tracking shadow effect to the text.
 
-## Project Structure
-
-- `FunTrackerBlod/index.html` - main web page
-- `index.js` - (optional) additional JavaScript file in the root if used for future enhancements
-- `inde.html` - another HTML file in the root
-- `file.txt` - miscellaneous notes or resources
-
 ## Features
 
 - Full-screen red background
@@ -22,5 +15,4 @@ A small web project that displays an animated "FUN" splash screen and adds a dyn
 
 ## Notes
 
-- The interactive effect is implemented using a small inline script in `FunTrackerBlod/index.html`.
 - You can customize the text, colors, and shadow behavior by editing the HTML and style section.
