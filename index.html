@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    * {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        padding: 0;
+        margin: 0;
+    }
+    .bg {
+        background-color: red;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .text {
+        font-size: 13em;
+        color: white;
+    }
+</style>
+
+<body>
+    <div class="bg">
+        <h1 class="text">FUN</h1>
+    </div>
+</body>
+
+</html>
+
+<script>
+    const target = document.getElementsByClassName("text")[0];
+    document.addEventListener("mousemove", (event) => {
+        const x = (event.clientX - window.innerWidth / 2) /25;
+        const y = (event.clientY - window.innerHeight / 2) /25;
+        target.style.textShadow = `${x}px ${y}px 1px black` ;
+    });
+</script>
